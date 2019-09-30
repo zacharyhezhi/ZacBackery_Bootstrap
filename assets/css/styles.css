@@ -1,0 +1,78 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background:url(https://drscdn.500px.org/photo/139996105/q%3D80_m%3D2000_k%3D1/v2?sig=7d2a8484f32efd2dd64caf20755647fbde60c726c551a759ae16648df9f4068c);
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+@media (max-width:991px) {
+  #promo {
+    padding:20px;
+  }
+}
+
+.dark-section {
+  background-color:#bcd9ea;
+}
+
+.site-section {
+  padding:50px 0 60px;
+  text-align:center;
+}
+
+#welcome p {
+  font-size:20px;
+  margin:0 auto;
+  max-width:800px;
+  color:#666;
+}
+
+.site-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+#why i {
+  font-size:42px;
+  color:#e88eea;
+}
+
+#why h2 {
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:30px;
+}
+
+#why .item {
+  margin-top:36px;
+}
+
+#why .item p {
+  color:#6f767a;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:rgb(232,232,81);
+  border-color:transparent;
+}
+
